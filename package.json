@@ -1,0 +1,25 @@
+{
+  "name": "vscode-extensions-pack-react",
+  "version": "1.0.0",
+  "description": "Collection of visual code extensions for react development",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/letanure/vscode-extensions-pack-react.git"
+  },
+  "keywords": [
+    "vscode",
+    "react",
+    "plugin",
+    "extension"
+  ],
+  "author": "Luiz Tanure",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/letanure/vscode-extensions-pack-react/issues"
+  },
+  "homepage": "https://github.com/letanure/vscode-extensions-pack-react#readme"
+}
