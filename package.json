@@ -1,25 +1,53 @@
 {
   "name": "vscode-extensions-pack-react",
-  "version": "1.0.0",
+  "displayName": "Extensions for React development",
   "description": "Collection of visual code extensions for react development",
-  "main": "index.js",
-  "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
-  },
-  "repository": {
-    "type": "git",
-    "url": "git+https://github.com/letanure/vscode-extensions-pack-react.git"
-  },
+  "version": "1.0.0",
   "keywords": [
     "vscode",
     "react",
     "plugin",
     "extension"
   ],
+  "publisher": "letanure",
+  "engines": {
+    "vscode": "^1.46.0"
+  },
+  "icon": "logo.png",
+  "categories": [
+    "Extension Packs"
+  ],
+  "galleryBanner": {
+    "color": "#099",
+    "theme": "dark"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/letanure/vscode-extensions-pack-react.git"
+  },
   "author": "Luiz Tanure",
   "license": "MIT",
   "bugs": {
     "url": "https://github.com/letanure/vscode-extensions-pack-react/issues"
   },
-  "homepage": "https://github.com/letanure/vscode-extensions-pack-react#readme"
+  "homepage": "https://github.com/letanure/vscode-extensions-pack-react#readme",
+  "extensionPack": [
+    "editorconfig.editorconfig",
+    "dbaeumer.vscode-eslint",
+    "esbenp.prettier-vscode",
+    "formulahendry.auto-rename-tag",
+    "mrmlnc.vscode-duplicate",
+    "patbenatar.advanced-new-file",
+    "waderyan.gitblame",
+    "ms-vsliveshare.vsliveshare",
+    "apollographql.vscode-apollo",
+    "jpoissonnier.vscode-styled-components",
+    "xabikos.javascriptsnippets",
+    "andys8.jest-snippets",
+    "skyran.js-jsx-snippets",
+    "pulkitgangwar.nextjs-snippets",
+    "zhuangtongfa.material-theme",
+    "ms-vscode.vscode-typescript-next",
+    "VisualStudioExptTeam.vscodeintellicode"
+  ]
 }
